@@ -1,0 +1,96 @@
+body{
+    background-color: black;
+}
+
+.sidebar{
+    position:fixed; /*haja oq houver, o sidebar estará fixo na página*/
+    top:0;
+    left:0;
+    bottom:0;
+    padding: 12px;
+    width: 300px;
+
+}
+
+.sidebar nav ul{
+    margin-top: 20px;
+    padding: 0px 5px 10px;
+}
+
+nav.side-bar_navegation ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+.library {
+    margin-top: 10px;
+    background-color: #121212;
+    color:#b3b3b3;
+    border-radius: 8px;
+    padding:4px 8px;
+    height: 288px;
+    font-family: "DM Sans", sans-serif;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.library .library_button{
+    display: flex; /*p q serve?*/
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.library .library_content{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.library .library_button .fa-book {
+    font-size: 20px;
+    font-weight: 300;
+    color:#b3b3b3;
+    margin-right: 18px;
+    padding-right: 8px;  
+}
+
+.library .library_content .fa-plus{
+    margin: 24px 10px;
+    color:#b3b3b3;
+    height: 14px;
+    margin-left: 1px;
+}*/
+
+
+.sidebar ul li{
+    padding: 10px 0;
+}
+
+.side-bar_navegation{
+    background-color: #121212;
+    border-radius: 8px;
+    padding:16px 0 0 16px;
+}
+
+
+.side-bar_navegation .logo {
+    background-color:#121212;
+    display: flex;
+    border-radius: 8px;
+}
+
+.logo img{
+    width: 80px;
+    
+}
