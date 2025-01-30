@@ -89,3 +89,29 @@
     border-radius: 40px;
     border: none;
 }
+
+div.playlist-container{
+    background-color: #121212;
+    border-radius:10px;
+    height: 68vh;
+    margin:10px;
+    padding-top:16px;
+}
+
+.greeting{
+    margin: 24px; 
+    color:#fff;
+}
+
+#greeting-title{
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 48px;
+}
+
+
+.greeting-subtitle{
+    margin-top: 35px;
+    font-size: 24px;
+    font-weight: 700;
+}
