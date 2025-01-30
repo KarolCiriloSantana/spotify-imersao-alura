@@ -1,9 +1,10 @@
 body{
     background-color: black;
+    font-family: var(--font-dm-sans)
 }
 
 .sidebar{
-    /*position:fixed; haja oq houver, o sidebar estará fixo na página*/
+    position:fixed; /*haja oq houver, o sidebar estará fixo na página*/
     top:0;
     left:0;
     bottom:0;
@@ -19,7 +20,7 @@ body{
 nav.side-bar_navegation ul li a {
     color: #b3b3b3;
     text-decoration: none;
-    font-family: "DM Sans", sans-serif;
+    
     font-weight: 600;
     font-size: 14px;
 }
@@ -33,7 +34,6 @@ nav.side-bar_navegation ul li a {
     border-radius: 8px;
     padding:16px 0 0 16px;
 }
-
 
 .side-bar_navegation .logo {
     background-color:#121212;
@@ -70,7 +70,6 @@ nav.side-bar_navegation ul li a {
     border: 0px;
     font-size: 14px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -99,7 +98,6 @@ nav.side-bar_navegation ul li a {
     font-size: 14px;
     margin: 8px 0px;
     padding: 16px 20px;
-    font-family: "DM Sans", sans-serif;
     border-radius: 20px;
 }
 
@@ -126,9 +124,8 @@ nav.side-bar_navegation ul li a {
     background-color: #fff;
     color: #000;
     border-radius: 20px;
-    font-size: 12p;
+    font-size: 12px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     padding: 10px;
     margin-top: 12px;
     text-decoration: none;
@@ -163,3 +160,44 @@ nav.side-bar_navegation ul li a {
     margin: 8px;
     padding: 8px;
 }
+
+.disclaimer-premium{
+   position: fixed;
+   background: linear-gradient(to right,#C22A95,yellow, #4D94FF);
+   bottom:0;
+   right: 0;
+   left: 0;
+   padding: 15px 40px;
+   display: flex;
+   justify-content: space-between;
+   
+}
+.disclaimer-premium .text{
+    flex-shrink:0;
+}
+
+.disclaimer-premium .disclaimer-premium__title{
+    color: #ffff;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.disclaimer-premium .disclaimer-premium__subtitle{
+    color: #ffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.disclaimer-premium button{
+    background-color: #fff;
+    color:#000;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 14px 38px;
+    border:0px;
+    border-radius:40px;
+    flex-shrink: 0;
+
+}
+
