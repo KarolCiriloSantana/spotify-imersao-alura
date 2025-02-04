@@ -163,7 +163,7 @@ nav.side-bar_navegation ul li a {
 
 .disclaimer-premium{
    position: fixed;
-   background: linear-gradient(to right,#C22A95,yellow, #4D94FF);
+   background: linear-gradient(to right,yellow, green, black);
    bottom:0;
    right: 0;
    left: 0;

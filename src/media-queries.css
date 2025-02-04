@@ -1,0 +1,6 @@
+@media screen and (max-width: 1015px){/*até tamanho de tela quero q aconteça isso*/
+    .offer__scroll-container{
+        grid-template-columns: 1fr 1fr; /*quantas colunas/cards*/
+    }
+
+}
